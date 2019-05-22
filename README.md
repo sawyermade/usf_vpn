@@ -1,5 +1,8 @@
 # USF VPN SETUP JUNO PULSE
 
+## Website
+https://www.net.usf.edu/vpn/Linux/
+
 ## Ubuntu 18.04
 ```
 # Clone repo
