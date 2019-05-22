@@ -1,7 +1,8 @@
 # USF VPN SETUP JUNO PULSE
 
 ## Website
-https://www.net.usf.edu/vpn/Linux/
+<a href="https://www.net.usf.edu/vpn/Linux/" target="_blank">https://www.net.usf.edu/vpn/Linux/</a>
+
 
 ## Ubuntu 18.04
 ```
