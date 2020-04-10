@@ -21,6 +21,6 @@ quit
 # Disconnect
 globalprotect disconnect 
 
-# Reconnect, shouldnt ask for password
+# Reconnect, shouldnt ask for credentials
 globalprotect connect
 ```
