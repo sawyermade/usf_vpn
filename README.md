@@ -1,6 +1,6 @@
 # USF VPN Setup
 
-## Ubuntu 18.04 LTS x64 Install
+## Ubuntu 18.04 / 20.04 LTS x64 Install
 ```bash
 # Clone repo and enter director
 git clone https://github.com/sawyermade/usf_vpn
@@ -24,3 +24,16 @@ globalprotect disconnect
 # Reconnect, shouldnt ask for credentials
 globalprotect connect
 ```
+
+## Certificate Error Fix Ubuntu
+```bash
+# Purge globalprotect
+sudo dpkg -P globalprotect
+
+# Remove .GlobalProtect
+rm -rf ~/.GlobalProtect
+
+# Reboot 
+sudo reboot
+```
+After reboot reinstall following steps above.
