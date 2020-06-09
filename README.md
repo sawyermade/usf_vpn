@@ -27,13 +27,16 @@ globalprotect connect
 
 ## Certificate Error Fix Ubuntu
 ```bash
-# Purge globalprotect
-sudo dpkg -P globalprotect
-
 # Remove .GlobalProtect
 rm -rf ~/.GlobalProtect
 
-# Reboot 
-sudo reboot
+# Connect
+globalprotect connect
 ```
-After reboot reinstall following steps above.
+
+## Aliases
+```bash
+alias vu='globalprotect connect'
+alias vd='globalprotect disconnect'
+alias vs='globalprotect status'
+```
